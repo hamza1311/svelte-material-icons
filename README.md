@@ -6,7 +6,7 @@ npm i svelte-material-icons
 ```
 
 ### Usage
-```svelte
+```html
 <script>
   import Check from "svelte-material-icons/Check.svelte";
 </script>
@@ -23,7 +23,7 @@ Icon names are PascalCased from the original name in the site
 
 
 ### Icon Example
-```svelte
+```html
 <script>
   // all properties are optional
   export let size = "1em"; // string | number
